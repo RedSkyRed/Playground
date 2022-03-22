@@ -1,3 +1,8 @@
+# To do
+# - Documentation
+# - Clean up code
+# - Check time complexity
+# - (optional) improve time complexity 
 
 def trainer(wordlist, word, marker):
     
