@@ -72,4 +72,4 @@ def swap(arry, i, j):
 
 relevant = [[5,8],[7,9],[9,1],[0,1],[1,9],[2,1]]
 
-print(ideal_place(relevant))
+print(ideal_place(relevant)) 
