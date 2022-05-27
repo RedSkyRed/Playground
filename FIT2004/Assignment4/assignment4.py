@@ -84,7 +84,7 @@ def allocate(preferences, sysadmins_per_night, max_unwanted_shifts, min_shifts):
                 add_node(flow_graph, 2+total_admins*2+i, 2+total_admins+k, 0)
             
         # Filling out each day to targe/sink end of our flow graph
-        add_node(flow_graph, 2+total_admins*2+i, target-1, sys_admins_per_night)
+        add_node(flow_graph, 2+total_admins*2+i, target-1, sysadmins_per_night)
         # Reversed for residual
         add_node(flow_graph, target-1, 2+total_admins*2+i, 0)
 
